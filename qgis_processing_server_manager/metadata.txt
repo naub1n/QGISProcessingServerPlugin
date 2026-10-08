@@ -1,0 +1,17 @@
+[general]
+name=QGIS Processing Server Manager
+qgisMinimumVersion=3.28
+description=Gestion des jobs et des planifications d'un serveur QGIS Processing (OGC API Processes)
+version=0.1.0
+author=Nicolas AUBIN
+email=aubinnic@gmail.com
+about=Interface graphique pour consulter et créer des jobs, consulter et créer des planifications, et vérifier la présence côté serveur des algorithmes et des modèles .model3. L'authentification (Traefik OIDC) repose sur une configuration d'authentification QGIS (OAuth2 / Bearer) ou sur des en-têtes personnalisés.
+tracker=https://github.com/
+repository=https://github.com/
+tags=processing,server,jobs,scheduler,oidc
+homepage=https://github.com/
+category=Plugins
+icon=icon.svg
+experimental=True
+deprecated=False
+supportsQt6=True
